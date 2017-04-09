@@ -1,0 +1,7 @@
+Все тэги блога
+
+{% for tag in tags %}
+    ID тэга: {{tag.id}}
+    Название тэга: {{tag.tagname}}
+
+ {% endfor %}
